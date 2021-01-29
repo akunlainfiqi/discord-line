@@ -17,10 +17,11 @@ from linebot.models import (
 )
 from linebot.utils import PY3
 
-line_bot_api = LineBotApi('channel_access_token')
-parser = WebhookParser('channel_secret')
-dev = Webhook('link webhook discord tes')
-hook = Webhook('webhook discord rilis')
+#ini diisi semua
+line_bot_api = LineBotApi('channel_access_token') #line
+parser = WebhookParser('channel_secret') #line
+dev = Webhook('link webhook discord tes') #discord
+hook = Webhook('webhook discord rilis') #discord
 
 def application(environ, start_response):
     # check request path
