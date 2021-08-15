@@ -59,7 +59,7 @@ if (channel_secret is None or channel_access_token is None or webhook_link is No
     sys.exit(1)
 
 if webhook_log_link is None :
-    print('[Warnings]webhook_log_link is missing.')
+    print('fakyu')
 
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
